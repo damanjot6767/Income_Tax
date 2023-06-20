@@ -3,7 +3,6 @@ import 'react-notifications/lib/notifications.css';
 import { NotificationContainer } from 'react-notifications';
 import HraCalculator from './component/hraCalculator';
 import AdvanceTaxCalculator from './component/taxCalculator';
-
 function App() {
   return (
     <div className="App">
@@ -13,5 +12,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
