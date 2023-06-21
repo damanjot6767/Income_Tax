@@ -62,10 +62,10 @@ const HraCalculator = () => {
     };
 
     return (
-        <Card variant="outlined" style={{ width: "90%" ,margin:"auto",marginTop:"50px",padding:"40px 20px"}}>
+        <Card variant="outlined" style={{ width: "80%" ,margin:"auto",marginTop:"50px",padding:"40px 20px"}}>
             <Box fontWeight={"bold"} fontSize={30}>HRA Calculator</Box>
             <Grid container spacing={12} lg={8} md={10} sm={12} xs={12}  margin={"auto"}>
-            <Grid container spacing={2} style={{width:"50%",margin:"auto"}}>
+            <Grid container spacing={2} lg={8} md={10} sm={12} xs={12} style={{margin:"auto"}}>
                 <Grid item lg={12} md={12} sm={12} xs={12} >
 
                     <TextField
@@ -138,7 +138,7 @@ const HraCalculator = () => {
 
             </Grid>
             
-            <Grid container spacing={2} style={{width:"50%",margin:"auto"}}>
+            <Grid container spacing={2} lg={8} md={10} sm={12} xs={12} style={{margin:"auto"}}>
                 <Grid item lg={12} md={12} sm={12} xs={12} fontSize={30}>
                    {`Your Calculated HRA Is: ${hraExemption?hraExemption:0}`}
                    
